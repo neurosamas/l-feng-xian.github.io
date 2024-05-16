@@ -6,6 +6,7 @@ import glsl from "vite-plugin-glsl";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/l-feng-xian.github.io/'
   plugins: [vue(), wasm(), glsl({ watch: true })],
   resolve: {
     alias: {
